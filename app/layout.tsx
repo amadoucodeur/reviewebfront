@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import clsx from "clsx";
 import Cover from "@/components/Cover";
+import Categories from "@/components/Categories";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +20,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body className={clsx(inter.className,"min-h-screen bg-white")}>
+      <body className={clsx(inter.className, "min-h-screen bg-white mt-16")}>
         <Header />
-        <Cover />
-        {children}
+        <main className="">
+          <Cover />
+          <Categories />
+          {children}
+        </main>
       </body>
     </html>
   );

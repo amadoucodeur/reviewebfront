@@ -6,7 +6,7 @@ import AvatarLogOut from "./AvatarLogOut";
 
 export default function Header() {
   return (
-    <header className="w-full bg-fg fixed p-4 flex flex-row justify-between items-center">
+    <header className="w-full shadow-md bg-fg fixed top-0 p-4 flex flex-row justify-between items-center">
       <Logo />
       <SearchField />
       {/* <LogSign /> */}
