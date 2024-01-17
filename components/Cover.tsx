@@ -11,7 +11,7 @@ export default function Cover() {
         width={1920}
         height={1080}
       />
-      <div className="absolute top-0 w-full h-full bg-opacity-50 bg-fg text-white flex flex-col justify-center items-start pl-10">
+      <div className="absolute top-0 w-full h-full bg-opacity-10 bg-fg text-white flex flex-col justify-center items-start pl-10">
         <h1 className="text-6xl font-bold text-center p-2 text-slate-950">:/Revie</h1>
         <h2 className=" max-w-md text-slate-950 text-left hidden  md:block">
           Donnez une seconde vie à vos articles, économisez, préservez la nature
